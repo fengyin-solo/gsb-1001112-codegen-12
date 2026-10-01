@@ -12,6 +12,7 @@ const Drainage = () => import('@/views/drainage/index.vue')
 const Green = () => import('@/views/green/index.vue')
 const Lighting = () => import('@/views/lighting/index.vue')
 const Winter = () => import('@/views/winter/index.vue')
+const SnowCommand = () => import('@/views/snow_command/index.vue')
 const Flood = () => import('@/views/flood/index.vue')
 const Slope = () => import('@/views/slope/index.vue')
 const Expansion = () => import('@/views/expansion/index.vue')
@@ -35,6 +36,7 @@ const router = createRouter({
     { path: '/green', name: 'green', component: Green },
     { path: '/lighting', name: 'lighting', component: Lighting },
     { path: '/winter', name: 'winter', component: Winter },
+    { path: '/snow_command', name: 'snow_command', component: SnowCommand },
     { path: '/flood', name: 'flood', component: Flood },
     { path: '/slope', name: 'slope', component: Slope },
     { path: '/expansion', name: 'expansion', component: Expansion },
